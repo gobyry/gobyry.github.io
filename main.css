@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: black;
+}
+
+.header {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10%;
+    background:aqua;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25;
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.background {
+    width: 10x;
+    height: 10x;
+    background-color: pink;
+}
