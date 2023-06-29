@@ -6,7 +6,7 @@
 }
 
 body {
-    color: black;
+    background:#6CB4EE;
 }
 
 .header {
@@ -15,7 +15,7 @@ body {
     left:0;
     width:100%;
     padding:20px 10%;
-    background:aqua;
+    background:transparent;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -23,10 +23,23 @@ body {
 }
 
 .logo {
-    font-size: 25;
-    color:black;
+    font-size: 25px;
+    color:#ededed;
     text-decoration: none;
     font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .2s;
+}
+
+.navbar a:hover, .navbar a:active {
+    color: #ffdf00;
 }
 
 .background {
