@@ -42,8 +42,6 @@ body {
     color: #ffdf00;
 }
 
-.background {
-    width: 10x;
-    height: 10x;
-    background-color: pink;
+.home {
+    color:#ededed;
 }
