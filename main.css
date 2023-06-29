@@ -6,7 +6,8 @@
 }
 
 body {
-    background:#6CB4EE;
+    background: url('sf_night.jpeg') no-repeat;
+    background-color: rgb(6, 5, 17);
 }
 
 .header {
@@ -51,7 +52,8 @@ body {
     display: flex;
     align-items: center;
     padding: 0 10%;
-    color:#002D62;
+    color:#a3b1c1;
+    background: url('sf_night.jpeg') no-repeat;
 }
 
 .home_content {
@@ -72,3 +74,28 @@ body {
     font-weight: 700;
 }
 
+.contact-links {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    width: 170px;
+    left: 670px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.contact-links a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color:#ededed;
+    text-decoration: none;
+}
