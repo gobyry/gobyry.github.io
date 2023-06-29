@@ -23,10 +23,14 @@ body {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 32px;
     color:#ededed;
     text-decoration: none;
     font-weight: 600;
+}
+
+.navbar a:active {
+    color: #ffdf00;
 }
 
 .navbar a {
@@ -38,10 +42,33 @@ body {
     transition: .2s;
 }
 
-.navbar a:hover, .navbar a:active {
+.navbar a:hover, .navbar a.active {
     color: #ffdf00;
 }
 
 .home {
-    color:#ededed;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color:#002D62;
 }
+
+.home_content {
+    max-width: 600px;
+}
+
+.home_content h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.home_content h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.home_content h3 {
+    font-weight: 700;
+}
+
