@@ -52,8 +52,21 @@ body {
     display: flex;
     align-items: center;
     padding: 0 10%;
-    color:#a3b1c1;
+    color:#dae2ec;
     background: url('sf_night.jpeg') no-repeat;
+}
+
+.contacts {
+    display: flex;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contacts h1 {
+    font-size: 20px;
 }
 
 .home_content {
@@ -71,17 +84,12 @@ body {
 }
 
 .home_content h3 {
+    color: #00abf0;
     font-weight: 700;
 }
 
 .contact-links {
     display: flex;
-    align-items: center;
-    position: absolute;
-    top: 200px;
-    width: 170px;
-    left: 670px;
-    display:flex;
     justify-content: space-between;
 }
 
@@ -90,8 +98,7 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 30px;
     background: transparent;
     border: 2px solid #00abf0;
     border-radius: 50%;
